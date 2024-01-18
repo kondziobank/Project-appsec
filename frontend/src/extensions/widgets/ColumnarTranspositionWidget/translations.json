@@ -1,0 +1,20 @@
+{
+    "en": {
+        "name": "Columnar Transposition",
+        "reverse": "Reverse",
+        "result": "Result",
+        "keyLabel": "Type Your key",
+        "textLabel": "Type your text",
+        "originalMatrixLabel": "Original matrix",
+        "transpositionedMatrixLabel": "Transpositioned matrix"
+    },
+    "pl": {
+        "name": "Transpozycja kolumnowa",
+        "reverse": "Odwróć",
+        "result": "Wynik",
+        "keyLabel": "Wpisz swój klucz",
+        "textLabel": "Wpisz swój tekst",
+        "originalMatrixLabel": "Oryginalna macierz",
+        "transpositionedMatrixLabel": "Przekształcona macierz"
+    }
+}

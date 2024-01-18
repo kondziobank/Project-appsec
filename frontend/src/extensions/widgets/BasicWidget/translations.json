@@ -1,0 +1,12 @@
+{
+    "en": {
+        "name": "Example widget",
+        "giveYourName": "Give your name",
+        "yourNameIs": "Your name is"
+    },
+    "pl": {
+        "name": "Przykładowy widget",
+        "giveYourName": "Podaj swoje imię",
+        "yourNameIs": "Twoje imię to"
+    }
+}

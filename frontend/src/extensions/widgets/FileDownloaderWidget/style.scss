@@ -1,0 +1,18 @@
+.upload-area {
+  padding: 20px;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 16px;
+
+  transition-duration: 300ms;
+
+  &:hover {
+    color: black;
+    border-color: #aaa;
+  }
+}

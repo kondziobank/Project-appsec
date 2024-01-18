@@ -1,0 +1,34 @@
+{
+    "en": {
+        "name": "Quiz Question",
+        "exampleQuestion": "What color is a red Fiat 126p?",
+        "exampleAnswers": [
+            "Color #1F85DE in RGB",
+            "Color #BBDE1F in RGB",
+            "Color #DE3E1F in RGB",
+            "Color #3FDE1F in RGB"
+        ],
+        "singleChoice": "Single choice question",
+        "multipleChoice": "Multiple choice question",
+        "randomAnswersOrder": "Random answers order",
+        "createAnswer": "Create answer",
+        "question": "Question",
+        "answers": "Answers"
+    },
+    "pl": {
+        "name": "Pytanie testowe",
+        "exampleQuestion": "Jakiego koloru jest czerwony maluch?",
+        "exampleAnswers": [
+            "Koloru #1F85DE w RGB",
+            "Koloru #BBDE1F w RGB",
+            "Koloru #DE3E1F w RGB",
+            "Koloru #3FDE1F w RGB"
+        ],
+        "singleChoice": "Pytanie jednokrotnego wyboru",
+        "multipleChoice": "Pytanie wielokrotnego wyboru",
+        "randomAnswersOrder": "Losowa kolejność odpowiedzi",
+        "createAnswer": "Dodaj odpowiedź",
+        "question": "Pytanie",
+        "answers": "Odpowiedzi"
+    }
+}

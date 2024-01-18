@@ -1,0 +1,14 @@
+{
+    "en": {
+        "name": "File downloader",
+        "fileToDownload": "File to download",
+        "filesToDownload": "Files to download",
+        "uploadFilesLabel": "Upload files"
+    },
+    "pl": {
+        "name": "Plik do pobrania",
+        "fileToDownload": "Plik do pobrania",
+        "filesToDownload": "Pliki do pobrania",
+        "uploadFilesLabel": "Wgraj pliki"
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "class": "Diagram klas",
+  "er": "Diagram związków encji",
+  "flowchart": "Schemat blokowy",
+  "gantt": "Wykres Gantta",
+  "mermaid": "Diagramy Mermaid",
+  "pie": "Wykres kołowy",
+  "sequence": "Diagram sekwencji",
+  "state": "Diagram stanu",
+  "uj": "Mapa podróży"
+}

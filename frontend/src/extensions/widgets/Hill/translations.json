@@ -1,0 +1,20 @@
+{
+    "en": {
+        "name": "Hill algorithm",
+        "result": "Result",
+        "keyLabel": "Type Your key",
+        "textLabel": "Type your text",
+        "outputLabel": "Result",
+        "encryptionEnabled": "Encryption",
+        "decryptionEnabled": "Decryption"
+    },
+    "pl": {
+        "name": "Algorytm Hilla",
+        "result": "Wynik",
+        "keyLabel": "Wpisz swój klucz",
+        "textLabel": "Wpisz swój tekst",
+        "outputLabel": "Wynik",
+        "encryptionEnabled": "Szyfrowanie",
+        "decryptionEnabled": "Deszyfrowanie"
+    }
+}

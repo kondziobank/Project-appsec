@@ -1,0 +1,207 @@
+@use "sass:meta";
+
+$editor-toolbar-background: $sidebar-dark-bg;
+$editor-toolbar-icons-color: $gray-dark-600;
+$editor-background: #282a29;
+$editor-border-color: $gray-dark-100;
+$editor-internal-border-color: $gray-dark-300;
+$editor-text-color: white;
+$editor-header-color: #aaf;
+$editor-quote-color: #afa;
+$editor-link-color: #58a6ff;
+$editor-variable-color: #acf;
+
+$markdown-background: $editor-background;
+$markdown-text-color: white;
+
+// Global styles for fix editor and markdown display on both themes
+.bytemd {
+    height: calc(100vh - 300px);
+    z-index: 9999;
+}
+
+.bytemd-status {
+    line-height: 26px;
+}
+
+body[data-layout-mode="dark"] {
+    @include meta.load-css('github-markdown-css/github-markdown-dark');
+    @include meta.load-css("highlight.js/scss/github-dark.scss");
+
+    .CodeMirror {
+        color: $editor-text-color;
+        background: $editor-background;
+
+        &-cursor {
+            border-color: $editor-text-color;
+        }
+
+        &-gutters {
+            border-color: $editor-internal-border-color;
+        }
+
+        &-selected,
+        &-focused {
+            background: $gray-dark-300;
+        }
+
+        &-line::selection,
+        &-line::-moz-selection
+        {
+            background: $gray-dark-300;
+        }
+
+        &-linenumber,
+        &-gutter {
+            background: $editor-toolbar-background;
+        }
+    }
+
+    .cm-s-default {
+        .cm-header {
+            color: $editor-header-color;
+        }
+
+        .cm-quote {
+            color: $editor-quote-color;
+        }
+
+        .cm-link {
+            color: $editor-link-color;
+        }
+
+        .cm-variable-2 {
+            color: $editor-variable-color;
+        }
+
+        .cm-string {
+            color:rgb(246, 62, 62);
+        }
+
+        .cm-keyword {
+            color: #c8d;
+        }
+
+        .cm-atom {
+            color: #4af;
+        }
+
+        .cm-number {
+            color: #199966;
+        }
+
+        .cm-def {
+            color: #99f
+        }
+
+        .cm-builtin {
+            color: #4488ff
+        }
+    }
+
+    .cm-negative {
+        color: #e66;
+    }
+
+    .cm-positive{
+        color: #6d6
+    }
+
+    .cm-comment {
+        color:#f84
+    }
+
+
+
+    .markdown-body {
+        color: $editor-text-color;
+        background-color: $editor-background;
+
+        pre {
+            padding: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            border-color: $gray-dark-300;
+            color: $editor-text-color;
+        }
+
+        hr {
+            background-color: $gray-dark-300;
+        }
+
+        table {
+            tr {
+                border-color: $gray-dark-300;
+                background-color: darken($gray-dark-200, 5%);
+                &:nth-child(2n) {
+                    background-color: darken($gray-dark-200, 2%);
+                }
+            }
+        }
+
+        code {
+            color: #ff77aa;
+        }
+
+        .base {
+            background: inherit;
+        }
+    }
+
+    .bytemd {
+        background-color: $editor-background;
+        border-color: $editor-border-color;
+        color: $editor-toolbar-icons-color;
+    }
+
+    .bytemd-toolbar-icon:hover{
+        color: white;
+        background-color: inherit;
+    }
+
+    .bytemd-dropdown-title {
+        color: $gray-dark-400;
+    }
+
+    .bytemd-dropdown-item:hover{
+        background-color: $gray-dark-300;
+    }
+
+    .bytemd-toc-active {
+        background-color: $gray-dark-200;
+        color: #3399f8;
+    }
+
+    .tippy-box {
+        background-color: $gray-dark-200;
+        color: white;
+    }
+
+    .bytemd-toolbar {
+        background: $editor-toolbar-background;
+        border-color: $editor-internal-border-color;
+    }
+
+    .bytemd-toolbar-icon,
+    .bytemd-dropdown-title,
+    .bytemd-sidebar,
+    .bytemd-status,
+    .bytemd-split .bytemd-preview {
+        border-color: $editor-internal-border-color;
+    }
+
+    .CodeMirror {
+        color: $editor-text-color;
+        background: $editor-background;
+    }
+
+    .CodeMirror-line {
+        border-color: $editor-border-color;
+    }
+}
+
+body[data-layout-mode="light"] {
+    @include meta.load-css('github-markdown-css/github-markdown-light');
+    @include meta.load-css("highlight.js/scss/github.scss");
+}

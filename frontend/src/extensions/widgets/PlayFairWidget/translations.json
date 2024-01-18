@@ -1,0 +1,20 @@
+{
+    "en": {
+        "name": "Playfair",
+        "keyLabel": "Key",
+        "textToEncrypt": "Text to encrypt",
+        "textToDecrypt": "Text to decrypt",
+        "encryptionEnabled": "Szyfrowanie",
+        "decryptionEnabled": "Deszyfrowanie",
+        "output": "Result"
+    },
+    "pl": {
+        "name": "Playfair",
+        "keyLabel": "Klucz",
+        "textToEncrypt": "Tekst do zaszyfrowania",
+        "textToDecrypt": "Tekst do odszyfrowania",
+        "encryptionEnabled": "Szyfrowanie",
+        "decryptionEnabled": "Deszyfrowanie",
+        "output": "Wynik"
+    }
+}

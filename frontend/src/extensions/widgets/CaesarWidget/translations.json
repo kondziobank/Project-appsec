@@ -1,0 +1,20 @@
+{
+    "en": {
+        "name": "Caesar cipher",
+        "result": "Result",
+        "keyLabel": "Type Your key",
+        "textLabel": "Type your text",
+        "outputLabel": "Result",
+        "encryptionEnabled": "Encryption",
+        "decryptionEnabled": "Decryption"
+    },
+    "pl": {
+        "name": "Szyfr Cezara",
+        "result": "Wynik",
+        "keyLabel": "Wpisz swój klucz",
+        "textLabel": "Wpisz swój tekst",
+        "outputLabel": "Wynik",
+        "encryptionEnabled": "Szyfrowanie",
+        "decryptionEnabled": "Deszyfrowanie"
+    }
+}

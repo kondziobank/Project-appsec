@@ -1,0 +1,47 @@
+//
+// authentication.scss
+//
+
+.auth-bg {
+  background-image: url("../../../images/auth-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .bg-overlay {
+    opacity: 0;
+  }
+  @media (min-width: 768px) {
+    height: 100vh;
+  }
+}
+
+.auth-full-page-content {
+  min-height: 100vh;
+}
+
+// auth 2
+
+.auth-logo {
+  .logo-txt {
+    color: $dark;
+    font-size: 20px;
+  }
+}
+
+// auth-pass-inputgroup
+
+.auth-pass-inputgroup {
+  input[type="input"] + .btn .mdi-eye-outline {
+    &:before {
+      content: "\F06D1";
+    }
+  }
+}
+
+body[data-layout-mode="dark"] {
+  .auth-logo {
+    .logo-txt {
+      color: $white;
+    }
+  }
+}

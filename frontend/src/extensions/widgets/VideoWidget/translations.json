@@ -1,0 +1,10 @@
+{
+    "pl": {
+        "name": "Odtwarzacz Wideo",
+        "videoUrl": "Link do filmu"
+    },
+    "en": {
+        "name": "Video Player",
+        "videoUrl": "Video URL"
+    }
+}

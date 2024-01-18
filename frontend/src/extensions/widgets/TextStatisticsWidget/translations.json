@@ -1,0 +1,36 @@
+{
+    "en": {
+        "name": "Text Statistics Widget",
+        "subtitle": "Measure text statistics which will help you with substitution ciphers analysis",
+        "insertText": "insertText",
+        "plotLabel": "Barplot of characters frequency",
+        "whitelistLabel": "Characters whitelist",
+        "all": "All (also those not mentioned below)",
+        "letters": "Letters",
+        "digits": "Digits",
+        "whitespaces": "Whitespaces",
+        "otherSettingsLabel": "Other settings",
+        "caseSensitive": "Case sensitive analysis",
+        "unidecode": "Convert characters to latin counterparts (e.g. ę -> e)",
+        "space": "space",
+        "tab": "tab",
+        "newline": "new line"
+    },
+    "pl": {
+        "name": "Statystyki tekstu",
+        "subtitle": "Zmierz statystyki tekstu, które mogą przydać Ci się do analizy szyfrów podstawieniowych",
+        "insertText": "Wprowadź tekst",
+        "plotLabel": "Wykres słupkowy częstości występowania poszczególnych znaków",
+        "whitelistLabel": "Zliczane znaki",
+        "all": "Wszystkie (również niewymienione poniżej)",
+        "letters": "Litery",
+        "digits": "Cyfry",
+        "whitespaces": "Białe znaki",
+        "otherSettingsLabel": "Inne parametry",
+        "caseSensitive": "Rozróżniaj wielkość liter",
+        "unidecode": "Konwertuj znaki do łacińskich odpowiedników (np. ę -> e)",
+        "space": "spacja",
+        "tab": "tabulator",
+        "newline": "nowa linia"
+    }
+}

@@ -1,0 +1,55 @@
+.configurator__Body {
+  margin: 0 200px;
+  display: flex;
+}
+
+.configurator__List {
+  flex: 2;
+  margin: 20px 40px 20px 0;
+}
+
+.configurator_Editor {
+  flex: 3;
+  border-left: 1px solid #e9e9ef;
+  padding: 20px 0 20px 40px;
+  padding-left: 40px;
+}
+
+.configurator__Item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 7px;
+  margin-bottom: 2px;
+
+  border: 1px solid transparent;
+  &:hover {
+    border-color: #ddd;
+
+    & .configurator__Actions {
+      visibility: visible;
+    }
+  }
+}
+
+.configurator__Button {
+  background: none;
+  border: none;
+}
+
+.configurator__Actions {
+  visibility: hidden;
+  .configurator__Collapse {
+    visibility: visible;
+  }
+}
+
+.configurator__Item--active {
+  font-weight: bold;
+}
+
+.configurator_Item--private {
+  color: #ddd;
+  font-style: italic;
+}

@@ -1,0 +1,44 @@
+//Fonts
+@import "custom/fonts/fonts";
+
+//Core files
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "./node_modules/bootstrap/scss/mixins.scss";
+
+// Structure
+@import "custom/structure/general";
+@import "custom/structure/topbar";
+@import "custom/structure/page-head";
+@import "custom/structure/footer";
+@import "custom/structure/right-sidebar";
+@import "custom/structure/vertical";
+@import "custom/structure/horizontal-nav";
+@import "custom/structure/layouts";
+
+// Components
+@import "custom/components/waves";
+@import "custom/components/accordion";
+@import "custom/components/avatar";
+@import "custom/components/helper";
+@import "custom/components/modals";
+@import "custom/components/forms";
+@import "custom/components/widgets";
+@import "custom/components/toasts";
+@import "custom/components/demos";
+@import "custom/components/print";
+@import "custom/components/draganddrop";
+@import "custom/components/markdown";
+@import "custom/components/configurator";
+@import "custom/components/imageuploader";
+
+// Plugins
+@import "custom/plugins/custom-scrollbar";
+
+// Pages
+@import "custom/pages/authentication";
+@import "custom/pages/email";
+@import "custom/pages/coming-soon";
+@import "custom/pages/timeline";
+@import "custom/pages/extras-pages";

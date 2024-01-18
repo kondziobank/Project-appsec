@@ -1,0 +1,38 @@
+//
+// _imageuploader.scss
+//
+
+.imageuploader {
+    float: left;
+    position: relative;
+
+    &:hover {
+        .imageuploader__image {
+            opacity: 0.1;
+        }
+
+        .imageuploader__uploadarea {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+.imageuploader__image {
+    display: block;
+}
+
+.imageuploader__uploadarea {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
