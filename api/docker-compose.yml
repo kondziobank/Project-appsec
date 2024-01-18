@@ -1,0 +1,31 @@
+version: '3'
+services:
+  inzynierka-mongo:
+    image: mongo
+    container_name: inzynierka-mongo
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - ./utils/initMongo.sh:/docker-entrypoint-initdb.d/mongo-init.sh
+    env_file:
+      - .env
+
+  inzynierka-mongo-express:
+    image: mongo-express
+    container_name: inzynierka-mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    env_file:
+      - .env
+    depends_on:
+      - inzynierka-mongo
+  
+  inzynierka-mailhog:
+    image: mailhog/mailhog
+    container_name: inzynierka-mailhog
+    restart: always
+    ports:
+      - 1025:1025
+      - 8025:8025
